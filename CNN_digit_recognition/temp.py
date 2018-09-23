@@ -13,13 +13,11 @@ from sklearn.cross_validation import train_test_split
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-print('matplotlib', matplotlib.__version__+'\n','keras:', keras.__version__+'\n','sklearn:', sklearn.__version__+'\n', 'pandas:' + pandas.__version__+'\n','numpy:'+ numpy.__version__+'\n')
 
 
 # In[2]:
 
 
-# dataset https://www.kaggle.com/oddrationale/mnist-in-csv
 # preprocessing data
 trainData = pd.read_csv('/home/deepak/Desktop/deepWork/machineLearning/dataset/mnistData/mnist_train.csv')
 testData = pd.read_csv('/home/deepak/Desktop/deepWork/machineLearning/dataset/mnistData/mnist_test.csv')
@@ -28,26 +26,26 @@ testData = pd.read_csv('/home/deepak/Desktop/deepWork/machineLearning/dataset/mn
 # In[3]:
 
 
-print(trainData.shape, testData.shape)   
+print(trainData.shape, testData.shape)
 
 
-# In[9]:
+# In[4]:
+
 
 
 data = trainData.append(testData)
 data.shape
 
 
-# In[10]:
+# In[5]:
 
 
 # Reshapping the data because data is in rows and we need matrix for computation
 # Convert into 28*28*1 using reshape fun (1 because it contains only blackandWhite)
-# Unsigned integer (0 to 255)
-data.iloc[1, 1:].values.reshape(28, 28)
+data.iloc[1, 1:].values.reshape(28, 28).astype('uint8')
 
 
-# In[11]:
+# In[6]:
 
 
 #Storing Pixel array in form length width and channel in df_x
@@ -56,7 +54,7 @@ df_x = data.iloc[:,1:].values.reshape(len(data), 28, 28, 1)
 y = data.iloc[:, 0].values
 
 
-# In[12]:
+# In[7]:
 
 
 # now y conatins 0...9 which may have relationship among them
@@ -68,39 +66,37 @@ y = data.iloc[:, 0].values
 df_y = keras.utils.to_categorical(y,num_classes=10)
 
 
-# In[13]:
+# In[8]:
 
 
 df_y
 
 
-# In[14]:
+# In[9]:
 
 
 df_x  =  np.array(df_x)
 df_y  =  np.array(df_y)
 
 
-# In[15]:
+# In[10]:
 
 
 df_x.shape
 
 
-# In[16]:
+# In[11]:
 
 
-
-# test train split# test t 
+# test train split
 x_train, x_test, y_train, y_test = train_test_split(df_x,df_y,test_size=0.2,random_state=4)
 # done with preprocessing
 
 
-# In[17]:
+# In[12]:
 
 
-
-#CNN model#CNN mod 
+#CNN model
 model = Sequential()
 # 32 filter 3*3 size
 model.add(Convolution2D(32,3,data_format='channels_last',activation='relu',input_shape=(28,28,1)))
@@ -114,50 +110,49 @@ model.add(Activation('softmax'))
 model.compile(loss='categorical_crossentropy', optimizer = 'adadelta', metrics = ['accuracy']) # chose loss fun
 
 
-# In[18]:
+# In[ ]:
 
 
 model.summary()
 
 
-# In[19]:
+# In[ ]:
 
 
+#fitting it with just 100 images for testing 
 model.fit(x_train, y_train, epochs=30, validation_data = (x_test, y_test) )
 
 
-# In[20]:
+# In[ ]:
 
 
-# evaluate model on test and train data
 model.evaluate(x_test,y_test)
 
 
-# In[21]:
+# In[ ]:
 
 
-# save model so that we can use it later.
-model.save('model.h5')
+img = trainData.iloc[:, 1:]
+img.shape
 
 
-# In[28]:
+# In[ ]:
 
 
 index = 8
 testImg = trainData.iloc[index:(index+1), 1:]
-img = testImg.values.reshape(28, 28)
-print('----before reshape', img.shape)
-plt.imshow(img)
+img = testImg.values.reshape(1, 28, 28)
+plt.imshow(img[0])
 plt.show()
-img = img.reshape(1, 28, 28, 1).astype('uint8')
+img = img.reshape(1, 28, 28, 1)
 
 
-# In[27]:
+# In[ ]:
 
 
 predicted = model.predict(img)
 predicted = np.argmax(predicted, axis=None, out=None)
 defined = trainData.iloc[index:(index+1), 0:1].values
-defined = np.squeeze(defined)
-print('predicted digit:', predicted,'digit in csv:', defined)
+np.squeeze(
+print('-----predicted digit:', predicted,'digit in csv:', defined)
 
