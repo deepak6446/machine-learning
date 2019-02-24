@@ -13,3 +13,5 @@ iris data [here](https://github.com/deepak6446/machine-learning/blob/master/NAIV
 similar to random forest gradient boosting is an ensemble technique which builds final model based on individual weak models.
 XGBoost took  0.031 sec to train iris model with same accuracy as randomforest[here](https://github.com/deepak6446/machine-learning/blob/master/radom_forest/irisDataset%20random%20forest.ipynb) which took 0.118 sec.
 this shows XGBoost is 3.80 times faster as compared to random forest.
+
+4. [Decesion Tree](https://github.com/deepak6446/machine-learning/blob/master/decision_tree_%20loan_processing/Untitled.ipynb): decision tree starts by splitting using all the features one by one as the root, the tree with the least cost function is chosen. as the size of tree increases, the model becomes complex and small change in data can create a variance. this variance can be removed by purning, bagging boosting. 
