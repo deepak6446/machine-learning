@@ -1,3 +1,9 @@
+# Note: 
+some dataset may not be available in repo try googling or drop me a mail at deepak.r.poojari@gmail.com
+
+# install dependency 
+conda create --name \<your env\> --file requirnment.txt
+
 # Neural Networks
 
 1. [autoencoders](https://github.com/deepak6446/machine-learning/blob/master/DEEP_AUTOENCODERS/Untitled.ipynb): autoencoders are neural networks that aims to copy their inputs to their outputs. They work by compressing the input into a latent-space representation(encoders), and then reconstructing the output from this representation(decoders). <br>
@@ -22,3 +28,10 @@ this shows XGBoost is 3.80 times faster as compared to random forest.
 
 6. [K means Clustering](https://github.com/deepak6446/machine-learning/blob/master/K_MEANS_CLUSTERING/titanic%20dataset.ipynb): k means is a clustering algorithm that forms k cluster in such a way that data point in same cluser are very similar while data point in diffrent cluster are very diffrent. it starts with assigning k centroids to random data set points. now each data set distance from centroid is calculated using distance formula like euclidien distance. The data point is assigned to centroid from which its distance is min.
 
+7. [SVM](https://github.com/deepak6446/machine-learning/blob/master/SVM/spam%20non%20spam%20using%20svm.ipynb): email spam, non spam using support vector machine. The objective of SVM is to find a hyperplane in N-dim space that distinctly classifies data point.it looks for support vector to sepearte decision boundary with the max seperate space.
+SVM uses kernal trick to find hyperplace using 3d image of scattered points(if the points are not linearly seperable)
+regularization(or C parameter) tells SVM how much you want to avoid misclassification.
+Gamman: defines how far the influence of single training example in finding the hyperplane.
+
+# Visualization
+1. [matplotlib](https://github.com/deepak6446/machine-learning/blob/master/VISUALIZATION/visualization.ipynb): Line Plot, Scatter Plot, Histogram, Bar chart, Pie chart.
