@@ -2,7 +2,7 @@
 some dataset may not be available in repo try googling or drop me a mail at deepak.r.poojari@gmail.com
 
 # install dependency 
-conda create --name <your env> --file requirnment.txt
+conda create --name \<your env\> --file requirnment.txt
 
 # Neural Networks
 
