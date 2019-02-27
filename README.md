@@ -1,3 +1,7 @@
+# Note: some dataset may not be available in repo try googling or drop me a mail at deepak.r.poojari@gmail.com
+
+# install dependency using conda create --name <your env> --file requirnment.txt
+
 # Neural Networks
 
 1. [autoencoders](https://github.com/deepak6446/machine-learning/blob/master/DEEP_AUTOENCODERS/Untitled.ipynb): autoencoders are neural networks that aims to copy their inputs to their outputs. They work by compressing the input into a latent-space representation(encoders), and then reconstructing the output from this representation(decoders). <br>
