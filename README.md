@@ -1,9 +1,9 @@
-# neural networks
+# Neural Networks
 
 1. [autoencoders](https://github.com/deepak6446/machine-learning/blob/master/DEEP_AUTOENCODERS/Untitled.ipynb): autoencoders are neural networks that aims to copy their inputs to their outputs. They work by compressing the input into a latent-space representation(encoders), and then reconstructing the output from this representation(decoders). <br>
 where to use: autoencoders are used for data denoising and dimensionality reduction.
 
-# machine learning algorithms
+# Machine Learning Algorithms
 
 1. [Gaussian Naive Bayes](https://github.com/deepak6446/machine-learning/blob/master/NAIVE_BAYES/Untitled.ipynb)
 GNB is a Multinomial naive Bayes. it assumes that all the predictors are dependent of each other. but in most cases they are dependent.it can be used in cases where predictors are independent.
@@ -20,5 +20,5 @@ this shows XGBoost is 3.80 times faster as compared to random forest.
 
 5. [KNN](https://github.com/deepak6446/machine-learning/tree/master/KNN_Algorithm): k nearest neighbour can be used for both classification and regression. knn is also known as lazy learning algorithm because it does not learn anything during training time, it stores all data in memory whenever any new data comes in it try to find the k nearest data point that has min distance with the new data point. average classification values of this k nearest data point is considered as the output.
 
-6. [K means Clustering]: k means is a clustering algorithm that forms k cluster in such a way that data point in same cluser are very similar while data point in diffrent cluster are very diffrent. it starts with assigning k centroids to random data set points. now each data set distance from centroid is calculated using distance formula like euclidien distance. The data point is assigned to centroid from which its distance is min.
+6. [K means Clustering](https://github.com/deepak6446/machine-learning/blob/master/K_MEANS_CLUSTERING/titanic%20dataset.ipynb): k means is a clustering algorithm that forms k cluster in such a way that data point in same cluser are very similar while data point in diffrent cluster are very diffrent. it starts with assigning k centroids to random data set points. now each data set distance from centroid is calculated using distance formula like euclidien distance. The data point is assigned to centroid from which its distance is min.
 
