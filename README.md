@@ -9,6 +9,8 @@ conda create --name \<your env\> --file requirnment.txt
 1. [autoencoders](https://github.com/deepak6446/machine-learning/blob/master/DEEP_AUTOENCODERS/Untitled.ipynb): autoencoders are neural networks that aims to copy their inputs to their outputs. They work by compressing the input into a latent-space representation(encoders), and then reconstructing the output from this representation(decoders). <br>
 where to use: autoencoders are used for data denoising and dimensionality reduction.
 
+2. [Logistic Regression](https://github.com/deepak6446/machine-learning/blob/master/DEEP_logistic_regression_cat_prediction/Untitled.ipynb):logistic regression using perceptron model and sigmoid activation function. LR is a classification problem which can be used for binary or multiclassification problem unlike Linear Regression which gives continous value.
+
 # Machine Learning Algorithms
 
 1. [Gaussian Naive Bayes](https://github.com/deepak6446/machine-learning/blob/master/NAIVE_BAYES/Untitled.ipynb)
@@ -35,4 +37,5 @@ Gamman: defines how far the influence of single training example in finding the 
 [visualize hyperplane and margin](https://github.com/deepak6446/machine-learning/blob/master/support_vector_machine_supervised/blobDataset.ipynb)
 
 # Visualization
+
 1. [matplotlib](https://github.com/deepak6446/machine-learning/blob/master/VISUALIZATION/visualization.ipynb): Line Plot, Scatter Plot, Histogram, Bar chart, Pie chart.
