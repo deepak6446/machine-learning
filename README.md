@@ -32,6 +32,7 @@ this shows XGBoost is 3.80 times faster as compared to random forest.
 SVM uses kernal trick to find hyperplace using 3d image of scattered points(if the points are not linearly seperable)
 regularization(or C parameter) tells SVM how much you want to avoid misclassification.
 Gamman: defines how far the influence of single training example in finding the hyperplane.
+[visualize hyperplane and margin](https://github.com/deepak6446/machine-learning/blob/master/support_vector_machine_supervised/blobDataset.ipynb)
 
 # Visualization
 1. [matplotlib](https://github.com/deepak6446/machine-learning/blob/master/VISUALIZATION/visualization.ipynb): Line Plot, Scatter Plot, Histogram, Bar chart, Pie chart.
