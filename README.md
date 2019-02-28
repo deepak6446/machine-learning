@@ -22,7 +22,7 @@ similar to random forest gradient boosting is an ensemble technique which builds
 XGBoost took  0.031 sec to train iris model with same accuracy as randomforest[here](https://github.com/deepak6446/machine-learning/blob/master/radom_forest/irisDataset%20random%20forest.ipynb) which took 0.118 sec.
 this shows XGBoost is 3.80 times faster as compared to random forest.
 
-3. [Decesion Tree](https://github.com/deepak6446/machine-learning/blob/master/decision_tree_%20loan_processing/Untitled.ipynb): decision tree starts by splitting using all the features one by one as the root, the tree with the least cost function is chosen. as the size of tree increases, the model becomes complex and small change in data can create a variance. this variance can be removed by purning, bagging boosting. 
+3. [Decesion Tree](https://github.com/deepak6446/machine-learning/blob/master/decision_tree_%20loan_processing/Untitled.ipynb): Decision trees can handle both categorical and numerical data. Decision tree starts by splitting using all the features one by one as the root, the tree with the least cost function is chosen. as the size of tree increases, the model becomes complex and small change in data can create a variance. this variance can be removed by purning, bagging boosting. 
 
 4. [Random Tree](https://github.com/deepak6446/machine-learning/blob/master/random_forest/irisDataset%20random%20forest.ipynb): Random tree is an ensemble technique where number of decesion trees are created using features in test data at random and predictions form this tree's are combined to get a more accurate result and reduce variance caused by decision tree because of complexity of single tree.
 
