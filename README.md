@@ -36,7 +36,8 @@ regularization(or C parameter) tells SVM how much you want to avoid misclassific
 Gamman: defines how far the influence of single training example in finding the hyperplane.
 [visualize hyperplane and margin](https://github.com/deepak6446/machine-learning/blob/master/support_vector_machine_supervised/blobDataset.ipynb)
 
-8. [Regression](https://github.com/deepak6446/machine-learning/blob/master/Regression/linearRegression.ipynb): Multiple Linear Regression is Simple Linear Regression, but with more Relationships. In regression problem the goal of the algorithm is to predict real-valued output. while training multilinear regression model we are trying to find out coefficient for function ( y = c + a1x + a2x + a3x + a4x ....) that best fits input. error is minimized by using gradient descent ( J(Y, Y`) ~ 0). Keep changing a1 and a2 to reduce cost function until we hopefully end up at a minimum. to reduce error we will try to remove unwanted features from data.
+8. [Regression](https://github.com/deepak6446/machine-learning/blob/master/Regression/linearRegression.ipynb): Multiple Linear Regression is Simple Linear Regression, but with more Relationships. In regression problem the goal of the algorithm is to predict real-valued output. while training multilinear regression model we are trying to find out coefficient for function ( y = c + a1x + a2x + a3x + a4x ....) that best fits input. error is minimized by using gradient descent ( J(Y, Y`) ~ 0). Keep changing a1 and a2 to reduce cost function until we hopefully end up at a minimum. to reduce error we will try to remove unwanted features from data. 
+also trained the same dataset using GradientBoostingRegressor got higher accurracy but the time taken to train model also increased
 
 # Visualization
 
