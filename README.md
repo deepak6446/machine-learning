@@ -11,6 +11,8 @@ where to use: autoencoders are used for data denoising and dimensionality reduct
 
 2. [Logistic Regression](https://github.com/deepak6446/machine-learning/blob/master/DEEP_logistic_regression_cat_prediction/Untitled.ipynb):logistic regression using perceptron model and sigmoid activation function. LR is a classification problem which can be used for binary or multiclassification problem unlike Linear Regression which gives continous value.
 
+3. [CNN convolution neural networks](https://github.com/deepak6446/machine-learning/blob/master/DEEP_CNN_digit_recognition/98%25handWrittenDigitPrediction.ipynb): Image contains huge amount of pixels, training data with a fully connected neural networks make computation expensive, CNN used a combination of filters to reduce the number of paramters required to be learned by the network. further using polling we can reduce the image to some more extend keeping the imp features, using maxpool and avgpool.
+
 # Machine Learning Algorithms
 
 1. [Gaussian Naive Bayes](https://github.com/deepak6446/machine-learning/blob/master/NAIVE_BAYES/Untitled.ipynb)
