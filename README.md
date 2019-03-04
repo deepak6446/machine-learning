@@ -13,6 +13,8 @@ where to use: autoencoders are used for data denoising and dimensionality reduct
 
 3. [CNN convolution neural networks](https://github.com/deepak6446/machine-learning/blob/master/DEEP_CNN_digit_recognition/98%25handWrittenDigitPrediction.ipynb): Image contains huge amount of pixels, training data with a fully connected neural networks make computation expensive, CNN used a combination of filters to reduce the number of paramters required to be learned by the network. further using polling we can reduce the image to some more extend keeping the imp features, using maxpool and avgpool.
 
+4. [LSTM](https://github.com/deepak6446/machine-learning/blob/master/DEEP_LSTM/Generating%20next%20word%20in%20sequence%20using%20rnn.ipynb): fully connected dense layer does not consider sequence of input while predicting output. In long short term memory has memory in from of cell which has forget gates and update gates which decides what to forget and what needs to be feed into LSTM cell later to predict output based on precious input. LSTM is used because RNN are weak at remembering long term dependencies as long term dependencies causes gradient decent problem in RNN.
+
 # Machine Learning Algorithms
 
 1. [Gaussian Naive Bayes](https://github.com/deepak6446/machine-learning/blob/master/NAIVE_BAYES/Untitled.ipynb)
