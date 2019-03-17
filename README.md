@@ -11,6 +11,10 @@ where to use: autoencoders are used for data denoising and dimensionality reduct
 
 2. [Logistic Regression](https://github.com/deepak6446/machine-learning/blob/master/DEEP_logistic_regression_cat_prediction/Untitled.ipynb):logistic regression using perceptron model and sigmoid activation function. LR is a classification problem which can be used for binary or multiclassification problem unlike Linear Regression which gives continous value.
 
+3. [CNN convolution neural networks](https://github.com/deepak6446/machine-learning/blob/master/DEEP_CNN_digit_recognition/98%25handWrittenDigitPrediction.ipynb): Image contains huge amount of pixels, training data with a fully connected neural networks make computation expensive, CNN used a combination of filters to reduce the number of paramters required to be learned by the network. further using polling we can reduce the image to some more extend keeping the imp features, using maxpool and avgpool.
+
+4. [LSTM](https://github.com/deepak6446/machine-learning/blob/master/DEEP_LSTM/Generating%20next%20word%20in%20sequence%20using%20rnn.ipynb): fully connected dense layer does not consider sequence of input while predicting output. In long short term memory has memory in from of cell which has forget gates and update gates which decides what to forget and what needs to be feed into LSTM cell later to predict output based on precious input. LSTM is used because RNN are weak at remembering long term dependencies as long term dependencies causes gradient decent problem in RNN.
+
 # Machine Learning Algorithms
 
 1. [Gaussian Naive Bayes](https://github.com/deepak6446/machine-learning/blob/master/NAIVE_BAYES/Untitled.ipynb)
@@ -35,6 +39,9 @@ SVM uses kernal trick to find hyperplace using 3d image of scattered points(if t
 regularization(or C parameter) tells SVM how much you want to avoid misclassification.
 Gamman: defines how far the influence of single training example in finding the hyperplane.
 [visualize hyperplane and margin](https://github.com/deepak6446/machine-learning/blob/master/support_vector_machine_supervised/blobDataset.ipynb)
+
+8. [Regression](https://github.com/deepak6446/machine-learning/blob/master/Regression/linearRegression.ipynb): Multiple Linear Regression is Simple Linear Regression, but with more Relationships. In regression problem the goal of the algorithm is to predict real-valued output. while training multilinear regression model we are trying to find out coefficient for function ( y = c + a1x + a2x + a3x + a4x ....) that best fits input. error is minimized by using gradient descent ( J(Y, Y`) ~ 0). Keep changing a1 and a2 to reduce cost function until we hopefully end up at a minimum. to reduce error we will try to remove unwanted features from data. 
+also trained the same dataset using GradientBoostingRegressor got higher accurracy but the time taken to train model also increased
 
 # Visualization
 
