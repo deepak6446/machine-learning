@@ -1,0 +1,121 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	deleted:    DEEP_Image_captioning_LSTM_CNN/.~lock.accuracy.xlsx#
+	deleted:    DEEP_Image_captioning_LSTM_CNN/accuracy.xlsx
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/evaluate-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/evaluate-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/extractfeatures-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/extractfeatures-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/main-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/main-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/model-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/model-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/testData-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/testData-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/.ipynb_checkpoints/textPreprocessor-checkpoint.ipynb -> DEEP_LSTM_CNN_Image_captioning/.ipynb_checkpoints/textPreprocessor-checkpoint.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/54501196_a9ac9d66f2.jpg -> DEEP_LSTM_CNN_Image_captioning/54501196_a9ac9d66f2.jpg
+	new file:   DEEP_LSTM_CNN_Image_captioning/X1train.pkl
+	renamed:    DEEP_Image_captioning_LSTM_CNN/__pycache__/extractfeatures.cpython-36.pyc -> DEEP_LSTM_CNN_Image_captioning/__pycache__/extractfeatures.cpython-36.pyc
+	renamed:    DEEP_Image_captioning_LSTM_CNN/__pycache__/testData.cpython-36.pyc -> DEEP_LSTM_CNN_Image_captioning/__pycache__/testData.cpython-36.pyc
+	renamed:    DEEP_Image_captioning_LSTM_CNN/__pycache__/textPreprocessor.cpython-36.pyc -> DEEP_LSTM_CNN_Image_captioning/__pycache__/textPreprocessor.cpython-36.pyc
+	new file:   DEEP_LSTM_CNN_Image_captioning/accuracy.xlsx
+	renamed:    DEEP_Image_captioning_LSTM_CNN/descriptions.txt -> DEEP_LSTM_CNN_Image_captioning/descriptions.txt
+	renamed:    DEEP_Image_captioning_LSTM_CNN/dog.jpg -> DEEP_LSTM_CNN_Image_captioning/dog.jpg
+	renamed:    DEEP_Image_captioning_LSTM_CNN/evaluate.ipynb -> DEEP_LSTM_CNN_Image_captioning/evaluate.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/evaluate.py -> DEEP_LSTM_CNN_Image_captioning/evaluate.py
+	renamed:    DEEP_Image_captioning_LSTM_CNN/extractfeatures.ipynb -> DEEP_LSTM_CNN_Image_captioning/extractfeatures.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/extractfeatures.py -> DEEP_LSTM_CNN_Image_captioning/extractfeatures.py
+	new file:   DEEP_LSTM_CNN_Image_captioning/features.pkl
+	renamed:    DEEP_Image_captioning_LSTM_CNN/main.ipynb -> DEEP_LSTM_CNN_Image_captioning/main.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/main.py -> DEEP_LSTM_CNN_Image_captioning/main.py
+	renamed:    DEEP_Image_captioning_LSTM_CNN/model.ipynb -> DEEP_LSTM_CNN_Image_captioning/model.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/model.png -> DEEP_LSTM_CNN_Image_captioning/model.png
+	renamed:    DEEP_Image_captioning_LSTM_CNN/model.py -> DEEP_LSTM_CNN_Image_captioning/model.py
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_0.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_1.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_10.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_11.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_12.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_13.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_14.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_15.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_16.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_17.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_18.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_19.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_2.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_3.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_4.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_5.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_6.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_7.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_8.h5
+	new file:   DEEP_LSTM_CNN_Image_captioning/model_9.h5
+	renamed:    DEEP_Image_captioning_LSTM_CNN/preReq -> DEEP_LSTM_CNN_Image_captioning/preReq
+	renamed:    DEEP_Image_captioning_LSTM_CNN/testData.ipynb -> DEEP_LSTM_CNN_Image_captioning/testData.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/testData.py -> DEEP_LSTM_CNN_Image_captioning/testData.py
+	renamed:    DEEP_Image_captioning_LSTM_CNN/textPreprocessor.ipynb -> DEEP_LSTM_CNN_Image_captioning/textPreprocessor.ipynb
+	renamed:    DEEP_Image_captioning_LSTM_CNN/textPreprocessor.py -> DEEP_LSTM_CNN_Image_captioning/textPreprocessor.py
+	renamed:    DEEP_Image_captioning_LSTM_CNN/tokenizer.pkl -> DEEP_LSTM_CNN_Image_captioning/tokenizer.pkl
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/1049934251710414 -> DEEP_LSTM_CNN_Image_captioning/truck_files/1049934251710414
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/7227927824_4fbc4a2812_k.jpg -> DEEP_LSTM_CNN_Image_captioning/truck_files/7227927824_4fbc4a2812_k.jpg
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/7227927824_ccd8deac76_b.jpg -> DEEP_LSTM_CNN_Image_captioning/truck_files/7227927824_ccd8deac76_b.jpg
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/7227927824_ccd8deac76_n.jpg -> DEEP_LSTM_CNN_Image_captioning/truck_files/7227927824_ccd8deac76_n.jpg
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/AppMeasurement.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/AppMeasurement.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/analytics.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/analytics.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/buddyicon04_m.png -> DEEP_LSTM_CNN_Image_captioning/truck_files/buddyicon04_m.png
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_002.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_002.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_003.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_003.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_004.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_004.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_005.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_005.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_006.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_006.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_007.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_007.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_008.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_008.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_009.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_009.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_010.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_010.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_011.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_011.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_012.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_012.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_013.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_013.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_014.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_014.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_015.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_015.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_016.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_016.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_017.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_017.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_018.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_018.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_019.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_019.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_020.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_020.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_021.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_021.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_022.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_022.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_023.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_023.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_024.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_024.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_025.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_025.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_026.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_026.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_027.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_027.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_028.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_028.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_029.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_029.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_030.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_030.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_031.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_031.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_032.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_032.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_033.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_033.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_034.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_034.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/combo_035.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/combo_035.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/fbevents.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/fbevents.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/flickr-router-e428e605.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/flickr-router-e428e605.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/launch-ENd8846597b4254546afff313cb328c80d.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/launch-ENd8846597b4254546afff313cb328c80d.js
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/rollup-44078f8a.css -> DEEP_LSTM_CNN_Image_captioning/truck_files/rollup-44078f8a.css
+	renamed:    DEEP_Image_captioning_LSTM_CNN/truck_files/s.js -> DEEP_LSTM_CNN_Image_captioning/truck_files/s.js
+	renamed:    DEEP_LSTM/.ipynb_checkpoints/Generating next word in sequence using rnn-checkpoint.ipynb -> DEEP_LSTM_generate_next_word_in_seq/.ipynb_checkpoints/Generating next word in sequence using rnn-checkpoint.ipynb
+	renamed:    DEEP_LSTM/Generating next word in sequence using rnn.ipynb -> DEEP_LSTM_generate_next_word_in_seq/Generating next word in sequence using rnn.ipynb
+	new file:   DEEP_LSTM_stock_market_prediction/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+	new file:   DEEP_LSTM_stock_market_prediction/Untitled.ipynb
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	file.txt
+
